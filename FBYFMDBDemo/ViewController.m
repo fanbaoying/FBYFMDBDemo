@@ -2,7 +2,7 @@
 //  ViewController.m
 //  FBYFMDBDemo
 //
-//  Created by 范保莹 on 2018/1/29.
+//  Created by fby on 2018/1/29.
 //  Copyright © 2018年 FBYFMDBDemo. All rights reserved.
 //
 
@@ -41,7 +41,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    self.nav = [[agreeFirstNav alloc]initWithLeftBtn:nil andWithTitleLab:@"数据列表" andWithRightBtn:@"addNav" andWithBgImg:nil andWithLab1Btn:nil andWithLab2Btn:nil];
+    self.nav = [[agreeFirstNav alloc]initWithLeftBtn:@"delete" andWithTitleLab:@"数据列表" andWithRightBtn:@"addNav" andWithBgImg:nil andWithLab1Btn:nil andWithLab2Btn:nil];
     
     [self.nav.leftBtn addTarget:self action:@selector(leftBtn:) forControlEvents:UIControlEventTouchUpInside];
     
@@ -106,7 +106,7 @@
 
 - (void)leftBtn:(UIButton *)sender {
     
-    
+    [self deleteAllData];
 }
 
 - (void)rightBtn:(UIButton *)sender {
@@ -199,9 +199,8 @@
 }
 
 // 删除所有数据
-- (void)deleteAllData:(NSInteger)userid{
+- (void)deleteAllData{
     
-    NSLog(@"%ld",(long)userid);
     //1.获得数据库文件的路径
     NSString *doc=[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
     NSString *fileName=[doc stringByAppendingPathComponent:@"userData.sqlite"];

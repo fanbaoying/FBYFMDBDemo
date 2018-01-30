@@ -25,6 +25,7 @@
 		450FADD1201EED1800E71825 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450FADD0201EED1800E71825 /* AddViewController.m */; };
 		450FADD3201EEFB000E71825 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 450FADD2201EEFB000E71825 /* back.png */; };
 		450FADD6201F144B00E71825 /* AlterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450FADD5201F144B00E71825 /* AlterViewController.m */; };
+		450FADDE2020429D00E71825 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 450FADDD2020429C00E71825 /* delete.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		450FADD2201EEFB000E71825 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		450FADD4201F144B00E71825 /* AlterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlterViewController.h; sourceTree = "<group>"; };
 		450FADD5201F144B00E71825 /* AlterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlterViewController.m; sourceTree = "<group>"; };
+		450FADDD2020429C00E71825 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 		450FADC6201EE35400E71825 /* AgreeNav */ = {
 			isa = PBXGroup;
 			children = (
+				450FADDD2020429C00E71825 /* delete.png */,
 				450FADD2201EEFB000E71825 /* back.png */,
 				450FADCD201EEB5600E71825 /* addNav.png */,
 				450FADC7201EE35400E71825 /* agreeFirstNav.h */,
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				450FAD90201ECE4700E71825 /* LaunchScreen.storyboard in Resources */,
+				450FADDE2020429D00E71825 /* delete.png in Resources */,
 				450FADD3201EEFB000E71825 /* back.png in Resources */,
 				450FAD8D201ECE4700E71825 /* Assets.xcassets in Resources */,
 				450FAD8B201ECE4700E71825 /* Main.storyboard in Resources */,

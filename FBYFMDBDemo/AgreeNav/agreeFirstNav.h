@@ -2,7 +2,7 @@
 //  agreeFirstNav.h
 //  agreePay
 //
-//  Created by 范保莹 on 2017/4/19.
+//  Created by fby on 2017/4/19.
 //  Copyright © 2017年 agreePay. All rights reserved.
 //
 

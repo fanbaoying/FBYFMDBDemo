@@ -2,7 +2,7 @@
 //  agreeFirstNav.m
 //  agreePay
 //
-//  Created by 范保莹 on 2017/4/19.
+//  Created by fby on 2017/4/19.
 //  Copyright © 2017年 agreePay. All rights reserved.
 //
 
@@ -54,7 +54,7 @@
         [self addSubview:_rightBtn];
         
         UILabel *myLab = [[UILabel alloc]initWithFrame:CGRectMake(0, 63, SCREEN_WIDTH, 1)];
-        myLab.backgroundColor = [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1];;
+        myLab.backgroundColor = [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1];
         [self addSubview:myLab];
         
     }
